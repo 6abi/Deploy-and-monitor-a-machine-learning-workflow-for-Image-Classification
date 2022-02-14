@@ -31,7 +31,7 @@ The main files of project are:
 
 1.	The image classification model had a test accuracy of 0.82.
 2. The step Function execution start with no Errors, as shown below:
-![processing]('images/process.jpg')   
+![processing]('https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/process.jpg')   
 3.	The Step Function indicates success when the prediction probability meets or exceeds the acceptance threshold (set at 0.93) with all three Lambda functions with Green status, as shown below:
 ![success]()
       
