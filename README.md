@@ -33,17 +33,17 @@ The main files of project are:
 2. The step Function execution start with no Errors, as shown below:
 ![processing](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/process.jpg)   
 3.	The Step Function indicates success when the prediction probability meets or exceeds the acceptance threshold (set at 0.93) with all three Lambda functions with Green status, as shown below:
-![success]()
+![success](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/success.jpg)
       
 4.	The Step Function fails when the prediction probability does not meet the threshold with the third Lambda function having a Red completion status as shown below:
-![fail]()
+![fail](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/error.jpg)
       
 5.  The following chart shows the prediction probability for a randomly selected set of test images against the threshold. The dotted green line is the acceptance threshold. Blue dots represent images classified with a probability above the acceptance threshold. The red dot represents an image classified with probability below the acceptance threshold:
 
-![monitor]()
+![monitor](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/download1.png)
 
-5. The chart below shows thatInferences are greater than 0.5 (above the dotted black line), i.e., motorcycle. The nferences have a confidence level above the threshold (bar is above the dotted green line)
-![custon_visualization]()
+5. The chart below shows that Inferences are greater than 0.5 (above the dotted black line), i.e., motorcycle. The nferences have a confidence level above the threshold (bar is above the dotted green line)
+![custon_visualization](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/download.png)
 
 A larger sample should be obtained (more test inferences should be run) to determine if the model is weak when it comes to identifying bicycles.
 
