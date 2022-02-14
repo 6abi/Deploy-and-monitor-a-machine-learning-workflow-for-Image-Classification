@@ -43,6 +43,7 @@ The main files of project are:
 ![monitor](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/download1.png)
 
 5. The chart below shows that Inferences are greater than 0.5 (above the dotted black line), i.e., motorcycle. The nferences have a confidence level above the threshold (bar is above the dotted green line)
+
 ![custon_visualization](https://github.com/6abi/Deploy-and-monitor-a-machine-learning-workflow-for-Image-Classification/blob/main/images/download.png)
 
 A larger sample should be obtained (more test inferences should be run) to determine if the model is weak when it comes to identifying bicycles.
